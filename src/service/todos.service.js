@@ -53,7 +53,7 @@ export class TodosService {
 
     async putTodos(token, body, id) {
         const response = await this.request.put(`${URL}todos/${id}`,{
-            headers:token,
+            headers: token,
             data: body
         });
         return response;

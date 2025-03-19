@@ -4,7 +4,6 @@ import { test, expect } from '@playwright/test';
 import { ChallengerService, ChallengesService, TodosService, HeartbeatService, SecretService }  from '../src/service/index';
 import { TodosBuilder, HeaderBuilder } from '../src/helper/index';
 
-// вынести в конфиги
 let token;
 const oldGuid = '62a63304-d598-4430-9cf5-2e52948d7421';
 
